@@ -535,7 +535,12 @@ margin-top: 20px;
     font-style: italic;
     text-align: center;
     margin-bottom: 20px;
+    transition:  0.4s ease;
 
+}
+.btn_entier:hover{
+    background-color: #97D4EF;
+    color: #000;
 }
 .entier_image{
     width: 100%;
