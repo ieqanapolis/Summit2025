@@ -1,0 +1,907 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #203442;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    width: 100%;
+}
+
+.btn a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 22px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Merriweather', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    transition:  0.4s ease;
+}
+.header-container{
+    width: 100%;
+    height: 748px;
+}
+.header_top{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+.header_top_content{
+    margin: 0 auto;
+    width: 100%;
+    height: 65px;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header_top_image img{
+    width: 140.5px;
+    height: 22.5px;
+}
+.header_top_btn a:hover{
+    
+    background-color: #97D4EF;
+    color: #000;
+}
+.header_top_btn a{
+    height: 54px;
+    background-color: #1C9BD8;
+    margin: 0 7px;
+}
+.header_logo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 445px;
+    padding: 10px
+}
+.header_logo_image{
+    width: 100%;
+    height: 273px;
+    background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/04/3D-Logo-2025.png);
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+.header_title{
+    color: #1C9BD8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header_title_secound{
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.section_one{
+    padding: 50px;
+    background-color: #EFE2D2;
+    font-family: "Montserrat", sans-serif;
+}
+.section_one_date{
+    font-family: "Merriweather", Sans-serif;
+    color: #7E6045;
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+.section_one_title {
+   color: #203442;
+   margin-bottom: 20px;
+   font-size: 16px;
+}
+.section_one_description{
+    color: #203442;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.section_one_btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #B05941;
+    border-radius: 50px;
+    height: 39px;
+}
+.section_one_btn a:hover{
+    background-color: #203442;
+}
+.section_one_img{
+width: 100%;
+height: 220px;
+padding: 0;
+background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/04/1.-O-MAIOR-EVENTO-scaled.jpg);
+background-size: cover;       
+background-position: right;  
+background-repeat: no-repeat; 
+}
+.section_two_title{
+    background-color: #1C9BD8;
+    padding: 30px;
+    margin-top: -.5rem;
+}
+.section_two_title h1{
+    color: #97D4EF;
+    font-family: "Merriweather", Sans-serif;
+    font-style: italic;
+    font-size: 35px;
+}
+.section_two_title span{
+    color: #EFE2D2;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 39px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.section_three_photo{
+    background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/04/GLS24_Headshot_Craig-Groeschel-Branded-Effect-Digital.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section_four_photo{
+    background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/04/GLS24_Headshot_Erwin-Raphael-McManus-Branded-Effect-Digital.png );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section_five_photo{
+    background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/04/online-GLS24_Headshot_Arthur-C-Brooks-Branded-Effect-Digital.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section_six_photo{
+    background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/04/GLS24_Headshot_Joni-Eareckson-Tada-Branded-Effect-Digital.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section_seven_photo{
+    background-image: url(https://igrejadorecreio.org.br/wp-content/uploads/2025/05/GLS24_Headshot_David_Ashcraft_Branded-Eddect_bone_-_Digital.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section_nine_photo{
+    background-image: url(https://cdn.discordapp.com/attachments/1376328684730060910/1376398660576739362/png-02.jpg?ex=68352ea4&is=6833dd24&hm=bf14adb1c0ba5c9f4a12dac9f8e2bd1e7f2948e14ee69f925aca65173065b084&);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.photo{
+    width: 100%;
+    height: 350px;
+    
+}
+.section_photo_name{
+    padding: 30px 30px 5px 30px;
+}
+.name{
+    font-size: 35px;
+    font-family: "Merriweather", Sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.surname{
+    color: #EFE2D2;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.section_description, .about{
+    color: #EFE2D2;
+    font-size: 17px;
+    font-weight: 400;
+}
+.section_description{
+    padding: 30px;
+}
+
+
+.name_color_one{
+    color: #CBD9C5;
+}
+.background_color_one{
+    background-color: #445946;
+}
+
+
+.name_color_two{
+    color: #D7AB9F;
+}
+.background_color_two{
+    background-color: #B05941;
+}
+
+
+.name_color_three{
+    color: #F0BF7F;
+}
+.background_color_three{
+    background-color: #C08430;
+}
+
+.name_color_four{
+    color: #97D4EF;
+}
+.background_color_four{
+    background-color: #1C9BD8;
+}
+
+
+.name_color_five{
+    color: #D7AB9F;
+}
+.background_color_five{
+    background-color: #B05941;
+}
+
+
+.name_color_six{
+    color: #CBD9C5;
+}
+.background_color_six{
+    background-color: #445946;
+    height: 250px;
+}
+
+
+.name_color_seven{
+    color: #F0BF7F;
+}
+.background_color_seven{
+    background-color: #C08430;
+    height: 250px;
+}
+
+.special_participation{
+display: inline-block;
+margin-top: 20px;
+padding: 15px ;
+color: #203442;
+border-radius: 50px;
+font-family: "Merriweather", sans-serif;
+font-size: 15px;
+font-weight: bold;
+font-style: italic;
+}
+.special_participation_color_A{
+    background-color: #CBD9C5;
+}
+.special_participation_color_W{
+    background-color: #F0BF7F;
+}
+.leadership_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #EFE2D2;
+}
+.leadership_image {
+    width: 100%;
+    height: 320px;
+    background-image: url("https://cdn.discordapp.com/attachments/1376328684730060910/1376399717658918993/png-SCDEQ.jpg?ex=68352fa0&is=6833de20&hm=89708793bdc9f3c763f7eb88886f99ea12de04eeb26e693f7cb68fbd9b08ce5f&");
+    background-position: center;
+    background-size: cover;
+}
+.leadership_about_content{
+    width: 100%;
+    padding: 45px;
+    
+}
+.leadership_title{
+color: #203442;
+font-size: 21px;
+}
+.leadership_description{
+    font-family: "Montserrat", sans-serif;
+    color: #203442;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.leadership_description p{
+    margin-bottom: 15px;
+    
+}
+.brands_content{
+    margin-top: -2px;
+    padding: 20px 50px;
+    background-color: #EFE2D2;
+}
+
+.brands_title, .sub_title{
+    text-align: center;
+    color: #203442;
+}
+.sub_title{
+    font-family: "Merriweather", Sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    margin: 20px 0;
+}
+.brands_img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+.brands_content img{
+  flex: 1 1 250px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brands_1 img, .brands_2 img, .brands_4 img, .brands_5 img{
+    width: 101px;
+}
+.brands_3 img, .brands_6 img{
+    width: 186px;
+}
+
+.summit_to_all{
+background-color:#EFE2D2 ;
+display: flex;
+flex-direction: column;
+font-family: "Montserrat", sans-serif;
+color: #203442;
+margin-top:-5px;
+}
+.summit_to_all_title_content{
+
+padding: 50px;
+}
+.summit_to_all_title h1{
+margin-top: 35px;
+}
+.summit_to_all_sub-title h2{
+font-family: "Merriweather", Sans-serif;
+font-style: italic;
+font-size: 21px;
+margin: 10px 0;
+}
+.summit_to_all_description{
+    line-height: 1.5;
+}
+.summit_to_all_image{
+    background-image:url("https://cdn.discordapp.com/attachments/1376328684730060910/1376399952434954361/DSC_4463_cc.jpg?ex=68352fd8&is=6833de58&hm=255cdc9befdf26020f54686c67cf717a28eb23613f084bcfd8e1dbd43864e81a&") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.about_summit_container{
+    padding: 50px;
+    text-align: center;
+}
+.about_summit_title h1{
+    color: #1C9BD8;
+    font-family:"Merriweather", sans-serif ;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: italic;
+}
+.about_summit_title_photo{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    zoom: 1.3;
+}
+.about_summit_title{
+    font-size: 35px;
+    font-family:"Merriweather", sans-serif ;
+    font-style: italic;
+}
+.about_summit_title, .about_summit_description{
+    padding: 25px;
+}
+.about_summit_description{
+    font-family: "Monteserrat",sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #EFE2D2;
+    font-weight: 400;
+    text-align: start;
+    padding-top: 0;
+}
+.color_title_one{
+color: #D7AB9F;
+}
+.background_one{
+background-color: #B05941;
+}
+.about_summit_image_one{
+background-image: url("https://igrejadorecreio.org.br/wp-content/uploads/2025/04/online-GLS24_Headshot_Arthur-C-Brooks-Branded-Effect-Digital-1.png");
+}
+
+
+
+.color_title_two{
+color: #F0BF7F;
+font-size: 30px;
+}
+.background_two{
+background-color: #C08430;
+}
+.about_summit_image_two{
+background-image: url("https://igrejadorecreio.org.br/wp-content/uploads/2025/04/GLS24_Headshot_Craig-Groeschel-Branded-Effect-Digital-1.png");
+}
+
+
+.color_title_three{
+color: #CBD9C5;
+font-size: 30px;
+}
+.background_three{
+background-color: #445946;
+}
+.about_summit_image_three{
+background-image: url("https://igrejadorecreio.org.br/wp-content/uploads/2025/04/GLS24_Headshot_Craig-Groeschel-Branded-Effect-Digital-2.png");
+}
+.entries_container{
+   display: flex;
+   flex-direction: column; 
+   font-family: "Montserrat", sans-serif;
+}
+.entiers_content{
+    padding: 30px 40px 10px 40px;
+    margin-bottom: 60px;
+    background-color: #203442;
+}
+.entier_title{
+    font-size: 23px;
+    color: #1C9BD8;
+    font-family:"Merriweather", sans-serif ;
+    font-weight: 400;
+    font-style: italic;
+}
+.entier_sub-title{
+    color: #EFE2D2;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.entier_value{
+    display: flex;
+    flex-direction: row;
+}
+.entier_value h1, .entier_value span{
+    
+    font-size: 40px;
+    font-weight: 800;
+    color:#97D4eF;
+}
+.entier_value span{
+display: flex;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+}
+.entier_participant{
+    color: #EFE2D2;
+    font-family: "Merriweather", Sans-serif;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.btn_entier_content{
+display: flex;
+width: 100%;
+margin-top: 20px;
+}
+.btn_entier{
+    width: 100%;
+    background-color: #1C9BD8;
+    text-decoration: none;
+    color: #fff;
+    padding:12px 24px ;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family:"Merriweather", sans-serif ;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.entier_image{
+    width: 100%;
+    height: 140px;
+    padding-top: 30px;
+    background-image: url(https://cdn.discordapp.com/attachments/1376328684730060910/1376401499558645780/entier.jpg?ex=68353149&is=6833dfc9&hm=cb06496580108cdb3cea52874400247cda517edb72eb67a32bd9170bb4ec7ab3&);
+    background-size: cover;
+    background-position: bottom;
+}
+.schedule_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.schedule_content {
+    padding: 70px 20px;
+}
+.schedule_title{
+    font-size: 25px;
+    color: #EFE2D2;
+    font-family:"Merriweather", sans-serif ;
+    font-style: italic;
+    padding: 30px 0 10px 0;
+
+}
+.schedule_day_week{
+    font-family:"Merriweather", sans-serif ;
+    font-style: italic;
+    font-size: 28px;
+}
+.schedule_date, .schedule_time, .schedule_content span{
+font-size: 40px;
+font-weight: 800;
+font-family: "Montserrat", sans-serif;
+color: #EFE2D2;
+}
+.schedule_time{
+    font-weight: 500;
+}
+.schedule_content span{
+    font-weight: 400;
+    font-size: 20px;
+}
+.type_entrie{
+    color: #203442;
+    display: flex;
+    justify-content: center;
+    font-family:"Merriweather", sans-serif ;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    border-radius:50px ;
+    margin-top: 20px;
+
+}
+.schedule_background_one{
+background-color: #1C9BD8;
+}
+.schedule_day_week_color_one{
+color: #97D4EF;
+}
+.type_entrie_background_one{
+    background-color: #97D4EF;
+}
+
+
+.schedule_background_two{
+background-color: #B05941;
+}
+.schedule_day_week_color_two{
+color: #B05941;
+}
+.type_entrie_background_two{
+    background-color: #D7AB9F;
+}
+
+.map_location iframe{
+    width: 100%;
+    height: 300px;
+}
+.summit_date_container{
+    padding: 50px;
+    font-family: "Monteserrat", sans-serif;
+    color: #EFE2D2;
+}
+.summit_date{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.summit_Ieq{
+    padding: 20px 0;
+    font-family:"Merriweather", sans-serif ;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+.summit_address{
+    font-size: 20px;
+}
+.vacancy{
+    background-image: url(https://cdn.discordapp.com/attachments/1376328684730060910/1376400139257647164/vacancy-background.jpg?ex=68353005&is=6833de85&hm=6a4d7fbc7e2efdb85bbb14db29e19ac9c708d06a35ebe13bae86178bf55646e8&);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vacancy_title{
+    color: #EFE2D2;
+    font-family:"Merriweather", sans-serif ;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.summit_support_container{
+    color: #203442;
+    background-color: #EFE2D2;
+    font-family: "Montserrat", sans-serif;
+    padding: 50px;
+    text-align: center;
+}
+.summit_support_container h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.summit_support_container p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.summit_support_contact_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.summit_support_number a{
+    color: #445946;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.summit_support_footer{
+    margin-top: 40px;
+}
+.summit_support_footer span, .summit_support_footer h1{
+    font-size: 23px;
+}
+.summit_support_footer span{
+font-family:"Merriweather", sans-serif ;
+font-weight: bold;
+font-style: italic;
+margin-bottom: 10px;
+}
+footer{
+    padding: 30px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ieq_image img{
+    margin-right: 20px;
+}
+.ieq_image img, .summit_image img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    width: 120px;
+    height: 47px;
+}
+
+
+
+@media (min-width: 600px) {
+   .header_top_content{
+    width: 1120px;
+   }
+    .header_logo_image{
+        max-width: 1120px;
+        height: 346px;
+        margin: 0 auto;
+    }
+    .header_top_image img{
+        width: 246px;
+        height: 46px;
+    }
+    .speaker_content{
+        display: flex;
+    }
+    .section_one_btn{
+        width: 200px;
+    }
+    .section_one{
+        padding: 100px;
+        width: 80%;
+    }
+    .section_one_img{
+        height: auto;
+        background-position: left;
+    }
+    .section_two_title{
+        margin-top: 80px;
+        min-width: 50%;
+        max-width: 50%;
+    }
+    .speaker_block {
+        display: flex;
+        flex-wrap: wrap;         
+        justify-content: center; 
+        gap: 20px;               
+    }
+    .speaker {
+        width: 300px;
+        min-height: 680px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .background_color_one, 
+    .background_color_seven, 
+    .background_color_two,
+    .background_color_three, 
+    .background_color_four,
+    .background_color_five,
+    .background_color_seven{
+        height: 250px;
+        
+    }
+    .section_description{
+        padding: 10px 30px;
+    }
+    .leadership_content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+    }
+    .leadership_image, .leadership_about_content{
+        height: 600px;
+    }
+    .brands_content{
+        margin: 0;
+        padding-top: 90px;
+    }
+    .brands_title{
+        font-size: 27px;
+    }
+    .sub_title{
+        font-size: 30px;
+    }
+    .brands_1 img, .brands_2 img, .brands_4 img, .brands_5 img{
+        width: 133px;
+        height: 100px;
+    }
+    .brands_3 img, .brands_6 img{
+        width: 234px;
+    }
+    .summit_to_all{
+        flex-direction: row;
+        padding: 120px 0px 0px 0px;
+    }
+    .summit_date_container{
+        padding-right: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .summit_date{
+        font-size: 30px;
+    }
+    .summit_to_all_title_content{
+        width: 1300px;
+        height: 350px;
+    }
+    .summit_to_all_image {
+        height: 480px;
+    }
+    .about_cards{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .about_summit_container{
+        padding:50px 0px 200px 0px;
+    }
+    .about_summit_title_photo, .about_cards_container{
+        
+        height: 470px;
+        max-width:420px;
+    }
+    .background_one, .background_two,.background_three{
+        position: relative;
+        margin-top: -190px;
+        height: 190px;
+    }
+    .entiers_content{
+        padding-top: 60px;
+        
+    }
+    .btn_entier{
+        width: 300px;
+    }
+    .entries_container{
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        background-color:#AE5841;
+    }
+    .entier_image{
+        width: 700px;
+        height: 480px;
+    }
+    .summit_location_content{
+        display: flex;
+    }
+    .entries_container{
+        display: flex;
+    }
+    .agenda_block{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .schedule_title {
+        font-size: 40px;
+    }
+    .summit_location_container {
+    width: 100%;
+    }
+    .map_location iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 550px;
+    border: 0;
+    }
+    .map_location {
+    flex: 0 1 900px;
+    }
+    .vacancy_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 980px;
+    }
+    .vacancy_title{
+        padding-left: 200px;
+    }
+    .vacancy_background{
+        background-color: transparent;
+    }
+     .ieq_image img, .summit_image img{
+        width: 208px;
+        height: 60px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 505px;
+    height: 100%;
+    margin: 0 auto;
+}
+    
+}
