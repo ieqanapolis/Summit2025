@@ -617,9 +617,22 @@ color: #D7AB9F;
     background-color: #D7AB9F;
 }
 
-.map_location iframe{
-    width: 100%;
-    height: 300px;
+.map_location {
+  transition: filter 0.5s ease;
+}
+
+.map_location iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 300px;
+  border: 0;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+/* Quando passar o mouse sobre a área */
+.map_location iframe:hover {
+  filter: grayscale(0%);
 }
 .summit_date_container{
     padding: 50px;
