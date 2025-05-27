@@ -617,22 +617,11 @@ color: #D7AB9F;
     background-color: #D7AB9F;
 }
 
-.map_location {
-  transition: filter 0.5s ease;
-}
-
 .map_location iframe {
   width: 100%;
   max-width: 900px;
   height: 300px;
   border: 0;
-  filter: grayscale(100%);
-  transition: filter 0.5s ease;
-}
-
-/* Quando passar o mouse sobre a área */
-.map_location iframe:hover {
-  filter: grayscale(0%);
 }
 .summit_date_container{
     padding: 50px;
@@ -893,14 +882,23 @@ footer{
     .summit_location_container {
     width: 100%;
     }
-    .map_location iframe {
-    width: 100%;
-    max-width: 900px;
-    height: 550px;
-    border: 0;
-    }
+
     .map_location {
-    flex: 0 1 900px;
+        transition: filter 0.5s ease;
+        flex: 0 1 900px;
+    }
+
+    .map_location iframe {
+        width: 100%;
+        max-width: 900px;
+        height: 550px;
+        border: 0;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+    }
+
+    .map_location iframe:hover {
+        filter: grayscale(0%);
     }
     .vacancy_content{
         display: flex;
