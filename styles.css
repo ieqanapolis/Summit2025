@@ -192,7 +192,7 @@ background-repeat: no-repeat;
 }
 
 .section_nine_photo{
-    background-image: url(/assets/img/pastorWAS.jpg);
+    background-image: url(assets/img/pastorWAS.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
